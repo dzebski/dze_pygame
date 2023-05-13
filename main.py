@@ -122,4 +122,4 @@ while playing:
 
     for bonus in bonuses:
         if bonus[1].left < 0:
-            bonus.pop(bonus.index(enemy))
+            bonuses.pop(bonus.index(bonus))
